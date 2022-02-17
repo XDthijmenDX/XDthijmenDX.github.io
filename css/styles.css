@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: none;
+    transition: all 0.4s;
+}
+
+.legofont {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width65 {
+    width: 65%;
+}
+
+.fontsize12 {
+    font-size: 12px;
+}
+
+.margintop {
+    margin-top: 10px;
+}
+
+.marginbuttom {
+    margin-bottom: 10px;
+}
+
+.mainpage {
+    width: 100%;
+    height: auto;
+}
+
+.mainpageteam {
+    width: 100%;
+    height: 750px;
+}
+
+
+.background {
+    background-color: aquamarine;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(../fotos/mainimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexwarp {
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.loginplaats {
+    width: auto;
+    height: 100px;
+}
+
+.navplaats {
+    width: 75%;
+    height: 100px;
+}
+
+.login {
+    border-radius: 4px;
+    background-color: #d1080a;
+    border: 5px solid #d1080a;
+    width: 125px;
+    height: 50px;
+}
+
+.login:hover {
+    border-color: black;
+}
+
+.signup {
+    border-radius: 4px;
+    background-color: #f6ed33;
+    border: 5px solid #f6ed33;
+    margin-left: 6%;
+    width: 125px;
+    height: 50px;
+}
+
+.signup:hover {
+    border-color: black;
+}
+
+
+.homeknoppen {
+    height: 50px;
+    width: 125px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+.homeknoppen:hover {
+    border-color: black;
+}
+
+.fotoplaats {
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.textplaats {
+    width: 100%;
+    height: 40px;
+}
+
+.groen {
+    background-color: #18f01c;
+    border: 5px solid #18f01c;
+}
+
+.blauw {
+    background-color: #4C61DB;
+    border: 5px solid #4C61DB;
+}
+
+.oranje {
+    background-color: #F47B30;
+    border: 5px solid #F47B30;
+}
+
+.pink {
+    background-color: #AC78BA;
+    border: 5px solid #AC78BA;
+}
+.fotoindex {
+    width: 100%;
+    height: 500px;
+}
+
+.fotoauto {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .loginplaats {
+        display: none;
+    }
+    .navplaats {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .homeknoppen {
+        width: 85px;
+    }
+    .fotoplaats {
+        width: 80%;
+    }
+}
+
+/*
+    login screen
+*/
+
+.loginscreen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: auto;
+    border: 5px solid #e0e0e6;
+    border-radius: 5px;
+    background-color: #ededf4;
+}
+
+.logintext {
+    height: 10%;
+    width: 100%;
+}
+
+.aanmeldplek {
+    width: 100%;
+    height: 15%;
+    margin-top: 5px;
+}
+
+.formsplek {
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+
+.formspleksignup {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.aanmeldbutton {
+    width: 60%;
+    height: auto;
+    border: 5px solid #39d324;
+    background-color: #39d324;
+    border-radius: 4px;
+}
+
+.aanmeldbutton:hover {
+    border-color: black;
+}
+
+.checkplek {
+    display: flex;
+    width: 35%;
+    height: 100%;
+}
+
+.infoplek {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.allinfoplek {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.invulplek {
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+
+.invulpleksignup {
+    width: 70%;
+    height: 30px;
+    margin: 5px;
+}
+
+.checktext {
+    width: 120px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1650px) {
+    .invulplek {
+        width: 175px;
+    }
+
+    .loginscreen {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .loginscreen {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .loginscreen {
+        width: 80%;
+    }
+
+    .invulplek {
+        width: 150px;
+    }
+}
+
+/*
+    Team paging
+*/
+
+/*
+    Behind the scenes
+*/
+
+.maininfo {
+    display: flex;
+    height: 650px;
+    width: 100%;
+}
+
+.info1 {
+    width: 60%;
+    height: 100%;
+}
+
+.info2 {
+    width: 40%;
+    height: 100%;
+    background-color: deeppink;
+}
+
+@media only screen and (max-width: 800px) {
+    .maininfo {
+        flex-direction: column;
+        height: auto;
+    }
+    .info1 {
+        width: 100%;
+    }
+}
+
+.fotowrapper {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.blokfotos {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+
+.textplaatsrobot {
+    width: 100%;
+    height: 80px;
+}
+
+.foto {
+    width: 100%;
+    height: 220px;
+}
+
+.imgplek {
+    width: 100%;
+    height: 100%;
+}
+
+.teamwrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.teamblok {
+    width: 65%;
+    height: auto;
+}
+
+.teamblokright {
+    width: 35%;
+    height: auto;
+}
+
+.fototeam {
+    width: 80%;
+    height: 90%;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .teamwrapper {
+        flex-direction: column;
+    }
+    .teamblok {
+        width: 100%;
+    }
+    .teamblokright {
+        width: 80%;
+    }
+}
+
+.instagram_feed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 30px;
+    height: auto;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.instagram_feed div {
+    display: flex;
+    border: 5px solid lightgray;
+    border-radius: 4px;
+    flex: 1;
+    white-space: nowrap;
+    width: 30%;
+    min-width: 250px;
+}
+
+.instagram_feed a {
+    width: 100%;
+}
+
+.instagram_feed img {
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .mainbehind {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        padding: 60px 20px 0px;
+    }
+
+    .question p {
+        max-width: 350px;
+    }
+
+    .instagram_feed div {
+        width: 100%;
+        min-width: 100%;
+    }
+}
